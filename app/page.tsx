@@ -1,15 +1,18 @@
+import Banner from "../public/banner.svg";
+
 export default function Home() {
   return (
     <>
-      <div className="gradient">
-        <div className="text-gray mx-auto max-w-3xl px-6 pt-14 text-4xl text-neutral-500">
-          <h2 className="font-oak text-lg">Welcome, I&apos;m</h2>
+      <div className="bg-gradient-to-t from-white to-[#9e9e9e]">
+        <div className="text-gray mx-auto max-w-3xl px-6 pt-32 text-4xl text-neutral-500 xl:text-7xl">
+          <h2 className="font-oak text-lg xl:text-3xl">Welcome, I&apos;m</h2>
           <h1 className="text-black">John Radojevich.</h1>
           <h3 className="leading-none">I build things for the web.</h3>
         </div>
       </div>
-      <div className="max-w-3xl px-6">
-        <h2 className="text-3xl ">
+      <Banner />
+      <div className="mx-auto max-w-3xl px-6 xl:text-xl">
+        <h2 className="text-3xl xl:text-4xl">
           Hello, I&apos;m John, Software Engineer & UI/UX Designer based in
           Milwaukee.
         </h2>
@@ -26,11 +29,11 @@ export default function Home() {
           interfaces that make products simple, and enjoyable.
         </p>
         <p className="tracking-wider text-neutral-500">
-          I'm currently a graduate student at the University of Oklahoma, where
-          I'm pursuing a Master&apos;s of Sciecne in Computer Science. I intend
-          to focus on applying machine learning and data mining to physics-based
-          weather analytics and modeling, particularly in the prediction of
-          high-impact weather events.
+          I&apos;m currently a graduate student at the University of Oklahoma,
+          where I&apos;m pursuing a Master&apos;s of Sciecne in Computer
+          Science. I intend to focus on applying machine learning and data
+          mining to physics-based weather analytics and modeling, particularly
+          in the prediction of high-impact weather events.
         </p>
       </div>
     </>
